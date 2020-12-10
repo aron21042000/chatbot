@@ -1,0 +1,142 @@
+*{
+    margin:0 auto;
+    padding:0 auto;
+    
+}
+@font-face{
+    font-family:Hanalei;
+    src: url(../css/Hanalei-Regular.ttf);
+    font-family: Tangerine;
+    src: url(../css/Tangerine-Regular.ttf);
+    src: url(../css/Tangerine-Bold.ttf);
+    font-family: Lobster;
+    src: url(../css/Lobster-Regular.ttf);
+    font-style: normal;
+    font-size: normal;
+    font-family: Merriweather;
+    src: url(../css/Merriweather-Black.ttf);
+    src: url(../css/Merriweather-BlackItalic.ttf);
+    src: url(../css/Merriweather-Bold.ttf);
+}
+h1{
+    font-family:Tangerine;
+}
+section,footer,article,aside,header{
+    display: inline-block;
+}
+body{
+    background-color:white;
+    color:#fff;
+    
+}
+ul{
+    font-family:Lobster;
+    
+}
+a{
+    color:whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color:#D58623;
+    
+}
+img{
+    max-width: 100%;
+}
+header,footer,section#contenedor    {
+    background:#fff url(../Fondo/fondo1.png);
+    max-width: 100%;
+    margin:0 auto;
+    text-align:center;
+    
+}
+li{
+    color:white;
+}
+header,h1,nav{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+nav,ul{
+    list-style: none;
+}
+nav,ul,li{
+    display: inline-block;
+    vertical-align:top
+    padding 0.1em;
+}
+nav {
+    background-color:black;
+    border:0.1em solid black;
+    display: inline-block;
+    font-size:1.3em;
+    font-family:Merriweather; 
+    padding:0.2em;
+    transition: all 1.5s ease-in;
+    -webkit-transition: all 1.5 ease-in;
+    -moz-transition:all 1.5 ease-in;
+    -o-transition: all 1.5 ease-in; 
+}
+section#principal{
+    background-color: black;
+    border-radius: 0.5em;
+}
+aside{
+    background-color: black;
+}
+article#galeriainicio{
+background: white;
+}
+a:active{
+    color:#D58623;
+
+}
+header{
+    width: 100%;
+}
+h1{
+float: left;
+}
+li{
+    
+    float: 0.5em right;
+    padding:1em;
+}
+aside{
+    width: 100%;
+}
+img,video{
+    max-width: 100%;
+    max-height: 100%;
+}
+.flexslider{
+    width: 100%;
+    position: relative;
+}
+.slides{
+    width: 100%;
+    overflow: hidden;
+}
+.slides img{
+    width: 100%;
+    
+}
+.slidesjs-pagination{
+    list-style: none;
+    overflow: hidden;
+}
+.flex-control-nav{
+    width: 100%;
+}
+.main{
+    width: 90%;
+    max-width:100% ;
+    margin:20px auto;
+    overflow:hidden;
+}
+span{
+    overflow: hidden;
+}
